@@ -6,7 +6,7 @@ function unEquate(str)
     str = replace(str, "\\end{equation}" => "")
     str = replace(str, "\$" => "")
     str = replace(str, "\n" => "")
-return str
+    return str
 end
 
 
